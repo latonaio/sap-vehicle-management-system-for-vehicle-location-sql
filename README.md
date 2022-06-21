@@ -1,6 +1,6 @@
 # sap-vehicle-management-system-for-vehicle-location-sql
 
-sap-vehicle-management-system-for-vehicle-location-sql は、主にエッジアプリケーションにおいて、SAPと連携された価格割引一覧データを保存するSQLテーブルを作成するためのレポジトリです。   
+sap-vehicle-management-system-for-vehicle-location-sql は、主にエッジアプリケーションにおいて、SAPと連携された 車両位置用車両マネジメントシステムデータ を保存するSQLテーブルを作成するためのレポジトリです。   
 sap-vehicle-management-system-for-vehicle-location-sql は、そのままクラウド環境におけるアプリケーションにも、適用可能です。  
 
 ## 前提条件  
@@ -12,8 +12,7 @@ https://api.sap.com/api/OP_API_VMSVEHICLELOCATION_0001/overview
 ## sqlの設定ファイル
 sap-vehicle-management-system-for-vehicle-location には、sqlの設定ファイルとして、以下のファイルが含まれています。  
 
-* sap-vms-vehicle-collection-data.sql（SAP 車両マスタ - 車両マスタデータ）  
-* sap-vms-vehicle-collection-items-data.sql (SAP 車両マスタ - 車両マスタ明細データ）
+* sap-vms-vehicle-collection-data.sql（SAP 車両位置用車両マネジメントシステムデータ - 車両マネジメントシステムデータ）  
   
 ## MySQLのセットアップ / Kubernetesの設定 / SQLテーブルの作成方法  
 
